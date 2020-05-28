@@ -26,6 +26,7 @@ import (
 // 	c.JSON(http.StatusCreated, result)
 // }
 
+// wooow
 func GetUser(c *gin.Context) {
 	c.String(http.StatusNotImplemented, "not implemented")
 }
