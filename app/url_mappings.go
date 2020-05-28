@@ -5,6 +5,7 @@ import (
 	"github.com/susilowibowo/my-microservices/controllers/users"
 )
 
+// url mapping endpoint
 func mapUrls() {
 	router.GET("/ping", ping.Ping)
 
